@@ -6,7 +6,7 @@ body{
     background-color: rgb(170, 161, 208);
     width: 960px;
     margin: 20px auto;
-    border: radius 20px; ;
+    border-radius: 20px;
 }
 
 header {
