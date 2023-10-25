@@ -6,6 +6,7 @@ body{
     background-color: rgb(170, 161, 208);
     width: 960px;
     margin: 20px auto;
+    border: radius 20px; ;
 }
 
 header {
@@ -21,6 +22,18 @@ header img {
 nav{ 
     background-color: darkgrey;
     padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: burlywood;
+    font-size: 30px;
+    margin: 0 20px;
+
+}
+nav a:hover {
+color: burlywood;
+text-decoration: none;
 }
 main{
     padding: 20px;
@@ -35,4 +48,21 @@ footer{
     background-color: beige;
     text-align: center;
     padding: 40px 0;
+    border-radius: 0 0 20px 20px ;
+}
+a{
+    color: slategrey;
+}
+a :hover{
+    color: antiquewhite;
+    text-decoration: none;
+}
+h1{
+    color: gold;
+}
+h2{
+    color: gold;
+}
+h3{
+    color: gold;
 }
