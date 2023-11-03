@@ -1,0 +1,44 @@
+body{
+background-color: #BF9A84;
+}
+img{
+display: block;
+margin: 0 auto;
+width: 100%;
+}
+#container{
+    background-color: #8C0F26;
+}
+nav{
+    background-color: #D9BEB4;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+   display: inline-block; 
+}
+
+nav li a {
+display: block;
+background-color:#D90B31 ;
+width: 200px;
+height: 50px;
+line-height: 50px;
+font-size: 1.5em;
+font-weight: bold;
+color: #59372A;
+text-decoration:none ;
+border: 8px dashed #8C0F26;
+margin: 0 10px;
+}
+nav li a:hover{
+    background-color: #BF9A84;
+    color: #D90B31;
+    border: 6px double #59372A;
+    
+}
